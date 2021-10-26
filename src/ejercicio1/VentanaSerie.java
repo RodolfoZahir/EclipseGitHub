@@ -27,7 +27,6 @@ public class VentanaSerie extends JFrame {
 	private JButton btnGenerar;
 	private JTextArea varSerie;
 
-
 	public static void main(String[] args) {
 		VentanaSerie frame = new VentanaSerie();
 		frame.setVisible(true);
