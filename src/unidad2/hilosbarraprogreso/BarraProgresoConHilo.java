@@ -58,7 +58,6 @@ public class BarraProgresoConHilo extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				Hilo objHilo1 = new Hilo("miHilo");
 				Thread varHilo1= new Thread(objHilo1);
-				
 				ProgresoDelHilo objHilo2= new ProgresoDelHilo(progressBarr);
 				Thread varHilo2= new Thread(objHilo2);
 				varHilo1.start();
